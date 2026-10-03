@@ -4,7 +4,8 @@
  * @description Provides {@link getModuleFor}, the Express equivalent of the Nest
  * `DecafModelModule` factory. Given an adapter flavour it returns a static class
  * whose `forRoot` method turns every exposed, tracked model into concrete
- * Express routes mounted on a ready-to-use {@link Router}. Route
+ * Express routes mounted on a ready-to-use {@link Router} (each model's
+ * routes under a per-model kebab-cased base path). Route
  * implementations are produced by the framework-agnostic
  * {@link FromModelController} pipeline on top of the for-http
  * `ModelControllerFactory`, while authentication is enforced per request
@@ -19,6 +20,7 @@ import { Adapter, ModelService } from "@decaf-ts/core";
 import { Logging, toKebabCase } from "@decaf-ts/logging";
 import { Metadata } from "@decaf-ts/decoration";
 import { Model, ModelConstructor } from "@decaf-ts/decorator-validation";
+import { InternalError } from "@decaf-ts/db-decorators";
 import type { ModelControllerFactoryConfig } from "@decaf-ts/for-http/server";
 
 import { DECAF_EXPOSE } from "../constants";
@@ -84,9 +86,12 @@ export type DecafModelModuleOptions = {
  * @property {Array.<ModelConstructor<any>>} models - The exposed, tracked models for
  * which routes were generated.
  * @property {Array.<ExpressRoute<any>>} routes - The framework-agnostic route
- * registrations produced by {@link FromModelController.create}.
+ * registrations produced by {@link FromModelController.create}; each route's
+ * `path` is relative to its model's base path.
  * @property {Router} router - The Express {@link Router} with all generated
- * routes mounted, ready to be attached to the application.
+ * routes mounted under each model's kebab-cased base path
+ * (`/${toKebabCase(Model.tableName(model))}`), ready to be attached to the
+ * application.
  * @category Decaf Model Routes
  */
 export type DecafModelModuleResult = {
@@ -178,19 +183,28 @@ export function getModuleFor(flavour: string) {
      * shutdown sees the live services behind the generated routes, merges the
      * controller configuration (global defaults, `@controllerConfig` decorator
      * metadata, and per-model module overrides), and registers each route on a
-     * fresh {@link Router}. Every route handler builds a
-      * {@link DecafRequestContext} via `contextFor`, runs the
-      * {@link AuthInterceptor} (skipped for public routes; model-level
-      * role/namespace validation can be skipped per route via the route auth
-      * config), instantiates the
-     * generated controller class, and serializes the result (`201` for POST,
-     * `200` otherwise, `204` for empty results).
+     * per-model {@link Router} mounted at
+     * `/${toKebabCase(Model.tableName(model))}` (mirroring for-nest's
+     * per-controller `@Controller(routePath)`), so multiple exposed models do
+     * not register colliding flat routes. Each exposed model's kebab-cased base
+     * path is precomputed up front and validated for uniqueness before any
+     * route is built: when two exposed models resolve to the same base path,
+     * `forRoot` fails fast by throwing a decaf {@link InternalError} naming
+     * both colliding models. The precomputed base paths are then reused for
+     * mounting. Every route handler builds a
+     * {@link DecafRequestContext} via `contextFor`, runs the
+     * {@link AuthInterceptor} (skipped for public routes; model-level
+     * role/namespace validation can be skipped per route via the route auth
+     * config), instantiates the generated controller class, and serializes the
+     * result (`201` for POST, `200` otherwise, `204` for empty results).
      * @summary Builds and mounts all model routes for the flavour.
      * @param {string} flavour - The adapter flavour whose models are exposed.
      * @param {Partial<DecafModelModuleOptionsInput>} [options] - Partial module
      * options; `contextFor` is required, everything else is optional.
      * @return {DecafModelModuleResult} The tracked models, generated routes,
      * and the mounted {@link Router}.
+     * @throws {InternalError} When two exposed models resolve to the same
+     * kebab-cased base path.
      * @category Decaf Model Routes
      */
     static forRoot(
@@ -203,6 +217,20 @@ export function getModuleFor(flavour: string) {
       const trackedModels = Adapter.models(flavour).filter((model) =>
         this.isExposed(model, options.controllerExposure)
       );
+
+      const basePathByModel = new Map<ModelConstructor<any>, string>();
+      const modelByBasePath = new Map<string, ModelConstructor<any>>();
+      for (const model of trackedModels) {
+        const basePath = toKebabCase(Model.tableName(model));
+        const collision = modelByBasePath.get(basePath);
+        if (collision) {
+          throw new InternalError(
+            `Duplicate base path "/${basePath}" resolved for exposed models "${collision.name}" and "${model.name}"; kebab-cased table names must be unique`
+          );
+        }
+        modelByBasePath.set(basePath, model);
+        basePathByModel.set(model, basePath);
+      }
 
       // Controllers always rely on a backing ModelService, even when services
       // are not auto-registered. Warm the singleton registry so shutdown can
@@ -226,7 +254,7 @@ export function getModuleFor(flavour: string) {
         const ControllerClass =
           FromModelController.createControllerClass(model);
         const modelName = model.name;
-        const basePath = toKebabCase(Model.tableName(model));
+        const basePath = basePathByModel.get(model)!;
         const modelRouter = Router();
 
         for (const route of modelRoutes) {

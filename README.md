@@ -29,7 +29,7 @@
 
 Documentation available [here](https://decaf-ts.github.io/for-express/)
 
-Minimal size: 106.8 KB kb gzipped
+Minimal size: 107.9 KB kb gzipped
 
 
 ### Description
@@ -201,6 +201,11 @@ before parameterized ones. The `path` on each route descriptor returned by
 `"bulk"`, `"find/:value"`); the full mounted URL is
 `/<kebab-table-name>/<path>`. Responses use `201` for `POST`, `200` otherwise,
 `204` when the handler produces no result.
+
+Before any route is built, `forRoot` precomputes each exposed model's
+kebab-cased base path and validates uniqueness: when two exposed models resolve
+to the same base path (distinct table names that kebab-collapse identically),
+startup fails fast with a decaf `InternalError` naming both colliding models.
 
 ### Decorators
 
