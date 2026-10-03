@@ -1,4 +1,6 @@
-[![Banner](./workdocs/assets/Banner.png)](https://decaf-ts.github.io/ts-workspace/)
-## Typescript Template
+![Banner](./workdocs/assets/decaf-logo.svg)
 
-This repository is meant to provide an enterprise template for any standard Typescript project
+## Express decaf integration
+
+`@decaf-ts/for-express` — Express.js integration layer of decaf-ts, built on
+`@decaf-ts/for-http/server`.

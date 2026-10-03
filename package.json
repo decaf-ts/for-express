@@ -1,27 +1,40 @@
 {
-  "name": "@decaf-ts/ts-workspace",
-  "version": "3.10.25",
-  "description": "template for ts projects",
+  "name": "@decaf-ts/for-express",
+  "version": "0.1.0",
+  "description": "Express decaf integration",
   "type": "module",
   "exports": {
-    "types": "./lib/types/index.d.ts",
-    "import": "./lib/esm/index.js",
-    "require": "./lib/cjs/index.cjs",
-    "default": "./lib/esm/index.js"
+    ".": {
+      "import": {
+        "types": "./lib/types/index.d.mts",
+        "default": "./lib/esm/index.js"
+      },
+      "require": {
+        "types": "./lib/types/index.d.cts",
+        "default": "./lib/cjs/index.cjs"
+      },
+      "default": "./lib/esm/index.js"
+    }
   },
+  "bin": {
+    "for-express": "lib/cjs/bin/cli.cjs"
+  },
+  "types": "./lib/types/index.d.mts",
   "main": "./lib/cjs/index.cjs",
   "module": "./lib/esm/index.js",
-  "types": "./lib/types/index.d.mts",
-  "sideEffects": false,
+  "sideEffects": [
+    "./lib/esm/decoration.js",
+    "./lib/esm/overrides/index.js",
+    "./lib/esm/overrides/overrides.js",
+    "./lib/cjs/decoration.cjs",
+    "./lib/cjs/overrides/index.cjs",
+    "./lib/cjs/overrides/overrides.cjs"
+  ],
   "scripts": {
     "do-install": "NPM_TOKEN=$(cat .npmtoken) npm install",
     "update-dependencies": "PREFIX=\"decaf-ts\"; npm ls | grep \"$PREFIX\" | awk -F/ '{print $NF}' | sed 's/@.*//' | xargs -I package npm update @\"$PREFIX\"/package",
     "update-scripts": "npx update-scripts",
-    "sync-codex": "./bin/sync-codex.sh",
-    "codex": "codex -s workspace-write exec",
-    "release": "./bin/tag-release.sh",
     "on-first-run": "npx update-scripts --boot",
-    "set-git-auth": "decaf utils credentials git-helper",
     "flash-forward": "npx npm-check-updates -u && npm run do-install",
     "reset": "rm -rf * && git checkout . && git pull && npm run do-install",
     "build": "build-scripts --dev",
@@ -29,6 +42,7 @@
     "test": "npm run test:all",
     "test:unit": "jest --testPathPatterns=\"/tests/unit\" --passWithNoTests --detectOpenHandles",
     "test:integration": "jest --testPathPatterns=\"/tests/(integration)\" --passWithNoTests --detectOpenHandles",
+    "test:e2e": "jest --testPathPatterns=\"/tests/e2e\" --passWithNoTests --detectOpenHandles",
     "test:all": "jest --testPathPatterns=\"/tests\" --passWithNoTests --detectOpenHandles",
     "test:dist": "TEST_TARGET=lib npm run test:all && TEST_TARGET=dist npm run test:all",
     "test:circular": "dpdm -T --no-warning --no-tree ./src/index.ts",
@@ -38,25 +52,14 @@
     "lint-fix": "eslint --fix .",
     "prepare-pr": "npm run lint-fix && npm run build:prod && npm run coverage && npm run docs",
     "prepare-release": "npm run lint-fix && npm run build:prod && npm run coverage && npm run test:dist && npm run docs",
-    "repo:init": "codex exec \"$(cat ./.codex/prompts/repo-setup.md)\nbase_path is `./`, initialize the repository\" -s workspace-write",
-    "repo:setup": "codex exec \"$(cat ./.codex/prompts/repo-setup.md)\nbase_path is ./\" -s workspace-write",
-    "repo:doc": "codex exec \"$(cat ./.codex/prompts/doc.md) $(cat ./.codex/prompts/bulk-docs.md)\nbase_path is ./\" -s workspace-write",
-    "repo:tests": "codex exec \"$(cat ./.codex/prompts/bulk-tests.md)\nbase_path is ./ and coverage is 95%\" -s workspace-write",
-    "repo:readme": "codex exec \"$(cat ./.codex/prompts/update-readme.md)\nbase_path is ./\" -s workspace-write",
-    "repo:pr": "npm run repo:doc && npm run repo:tests && npm run repo:readme",
-    "drawings": "for FILE in workdocs/drawings/*.drawio; do echo \"converting $FILE to image...\" && docker run --rm -v $(pwd):/data rlespinasse/drawio-export --format png $FILE; done && cp -rf workdocs/drawings/export/* workdocs/resources/",
-    "uml": "cd workdocs/uml && for FILE in ./*.puml; do docker run --rm -v $(pwd):/work -w /work miy4/plantuml -DPLANTUML_LIMIT_SIZE=8192 -tpng $FILE; done && cd ../.. && cp -fr workdocs/uml/*.png workdocs/resources/",
-    "docs": "npx rimraf ./docs && mkdir docs && build-scripts --docs",
-    "publish-docs": "docker run -it --rm --user $(id -u):$(id -g) -v \"$(pwd)/workdocs/confluence:/content\" -e ATLASSIAN_API_TOKEN=\"$(DECAF_BANNER=false decaf utils credentials get --name confluence --logLevel error)\" ghcr.io/markdown-confluence/publish:latest",
-    "docker:login": "docker login ghcr.io -u \"$(DECAF_BANNER=false decaf utils credentials get --name docker-user --legacy-file .dockeruser --logLevel error)\" -p \"$(DECAF_BANNER=false decaf utils credentials get --name docker --legacy-file .dockertoken --logLevel error)\"",
-    "docker:build": "npm run docker:build-base",
-    "docker:build-base": "NPM_TOKEN=\"$(DECAF_BANNER=false decaf utils credentials get --name npm --logLevel error)\" DOCKER_BUILDKIT=1 docker build --secret id=TOKEN,env=NPM_TOKEN -t ghcr.io/decaf-ts/ts-workspace:base-$(cat package.json | jq -r '.version') -t ghcr.io/decaf-ts/ts-workspace:base-${VERSION:-latest} -f ./Dockerfile .",
-    "docker:publish": "npm run docker:publish-base",
-    "docker:publish-base": "docker push ghcr.io/decaf-ts/ts-workspace:base-$(cat package.json | jq -r '.version') && docker push ghcr.io/decaf-ts/ts-workspace:base-${VERSION:-latest}"
+    "release": "./bin/tag-release.sh",
+    "docs": "npx rimraf ./docs && mkdir docs && NODE_ENV=development build-scripts --docs",
+    "cli": "node ./lib/cjs/bin/cli.cjs",
+    "sync-codex": "./bin/sync-codex.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decaf-ts/ts-workspace.git"
+    "url": "git+https://github.com/decaf-ts/for-express.git"
   },
   "engines": {
     "node": ">=20.0.0",
@@ -64,36 +67,70 @@
   },
   "files": [
     "lib",
-    "dist"
+    "dist",
+    "workdocs/assets/slogans.json"
   ],
   "keywords": [
-    "plantuml",
-    "mermaid",
-    "uml",
-    "drawio",
-    "mddocs",
-    "md",
-    "jsdoc",
-    "doc",
-    "docs",
-    "documentation",
-    "test",
-    "reports",
-    "confluence",
-    "ci/cd",
-    "ci",
-    "cd",
-    "template",
+    "express",
+    "routing",
+    "http",
+    "rest",
+    "server",
     "typescript",
     "ts"
   ],
-  "author": "Tiago Venceslau",
+  "author": "Tiago Venceslau and Contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/decaf-ts/ts-workspace/issues"
+    "url": "https://github.com/decaf-ts/for-express/issues"
   },
-  "homepage": "https://github.com/decaf-ts/ts-workspace#readme",
+  "homepage": "https://github.com/decaf-ts/for-express#readme",
   "devDependencies": {
-    "@decaf-ts/utils": "latest"
+    "@decaf-ts/cli": "latest",
+    "@decaf-ts/utils": "latest",
+    "@eslint/js": "^9.25.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.15.3",
+    "@types/supertest": "^6.0.3",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "jest": "^30.0.0",
+    "jsdoc-mermaid": "^1.0.0",
+    "rimraf": "^6.0.1",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.30.1"
+  },
+  "dependencies": {
+    "@decaf-ts/core": "latest",
+    "@decaf-ts/db-decorators": "latest",
+    "@decaf-ts/decoration": "latest",
+    "@decaf-ts/decorator-validation": "latest",
+    "@decaf-ts/for-http": "latest",
+    "@decaf-ts/injectable-decorators": "latest",
+    "@decaf-ts/logging": "latest",
+    "@decaf-ts/transactional-decorators": "latest",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.0",
+    "reflect-metadata": "^0.2.2",
+    "yaml": "^2.8.0"
+  },
+  "overrides": {
+    "ajv": "^8.17.2",
+    "@eslint/eslintrc": {
+      "ajv": "^6.14.0"
+    },
+    "eslint": {
+      "ajv": "^6.14.0"
+    },
+    "multer": "^2.1.2",
+    "test-exclude": "^7.0.2",
+    "js-yaml": "^5.2.2"
   }
 }

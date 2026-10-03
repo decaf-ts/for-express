@@ -49,7 +49,6 @@ The repository exposes the following npm scripts:
 - `update-scripts` – downloads the latest GitHub workflows, configs, and templates from the [ts-workspace](https://github.com/decaf-ts/ts-workspace) template repository.
 - `sync-codex` – copies the prompts under `./.codex/prompts` into `~/.codex/prompts` so Codex CLI can reuse them.
 - `on-first-run` – bootstraps the project by calling `update-scripts` with the `--boot` flag.
-- `set-git-auth` – registers the OS-native git credential helper via `decaf utils credentials git-helper`; run this once per repository.
 - `flash-forward` – bumps every dependency to the latest version via `npm-check-updates` and re-installs.
 - `reset` – restores the repository to the state of the default branch (wipes the working tree and re-installs dependencies); use with care.
 
@@ -59,31 +58,17 @@ The repository exposes the following npm scripts:
 - `build:prod` – runs `npx build-scripts --prod` to generate optimized production builds.
 - `lint` – executes ESLint across the repository.
 - `lint-fix` – runs ESLint with `--fix` to automatically resolve issues when possible.
-- `prepare-pr` – runs documentation, test, readme refresh, linting, production build, and coverage ahead of opening a pull request.
+- `prepare-pr` – runs lint-fix, production build, coverage and documentation ahead of opening a pull request.
+- `prepare-release` – like `prepare-pr`, and additionally re-runs the full suite against the compiled `lib` and `dist` outputs before publishing.
+- `release` – runs `./bin/tag-release.sh` to tag a release.
 
-#### Repository AI Automation (via Codex)
+#### CLI
 
-- `repo:init` – launches the Codex repository initialization workflow for this project.
-- `repo:setup` – runs the general setup Codex flow using the prompts in `.codex/prompts`.
-- `repo:doc` – refreshes documentation via the Codex documentation prompts.
-- `repo:tests` – generates or updates tests through the Codex testing flow.
-- `repo:readme` – regenerates the README with the Codex readme prompt.
-- `repo:pr` – sequentially executes `repo:doc`, `repo:tests`, and `repo:readme`.
+- `cli` – runs the packaged `for-express` binary (`./lib/cjs/bin/cli.cjs`); supports `boot [entry]`, `version` and `help`.
 
 #### Documentation Assets
 
-- `drawings` – converts every Draw.io file under `workdocs/drawings` into PNG assets and copies them into `workdocs/resources`.
-- `uml` – renders each PlantUML diagram found in `workdocs/uml` to PNG and copies the result to `workdocs/resources`.
 - `docs` – clears the `docs` folder and rebuilds the static documentation site via `build-scripts --docs`.
-- `publish-docs` – publishes the Markdown content under `workdocs/confluence` to Confluence through the official `markdown-confluence` container.
-
-#### Docker
-
-- `docker:login` – authenticates against `ghcr.io` using registry credentials resolved via `decaf utils credentials`.
-- `docker:build` – convenience alias that delegates to `docker:build-base`.
-- `docker:build-base` – builds the base container image with BuildKit using the version from `package.json`.
-- `docker:publish` – convenience alias that delegates to `docker:publish-base`.
-- `docker:publish-base` – pushes the versioned and `latest` Docker images to the GHCR registry.
 
 ### Tests
 
@@ -92,6 +77,7 @@ All automated test scripts live in `package.json`:
 - `test` – default entry point; forwards directly to `test:all`.
 - `test:unit` – runs Jest against files in `tests/unit`.
 - `test:integration` – runs Jest against files in `tests/integration`.
+- `test:e2e` – runs Jest against files in `tests/e2e` (supertest-based end-to-end suites).
 - `test:all` – executes the entire Jest test suite under `tests`.
 - `test:dist` – runs the full suite twice, once against the compiled `lib` output and once against the `dist` bundle (via the `TEST_TARGET` environment variable).
 - `test:circular` – checks the source for circular dependencies using `dpdm`.

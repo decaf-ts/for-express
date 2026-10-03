@@ -7,11 +7,11 @@
 
 ## Getting help
 
-If you have bug reports, questions or suggestions, please [create a new issue](https://github.com/decaf-ts/ts-workspace/issues/new/choose).
+If you have bug reports, questions or suggestions, please [create a new issue](https://github.com/decaf-ts/for-express/issues/new/choose).
 
 ## Contributing
 
-I am grateful for any contributions made to this project. Please read [this](./workdocs/98-Contributing.md) to get started.
+I am grateful for any contributions made to this project. Please read [this](./workdocs/tutorials/Contributing.md) to get started.
 
 ## Supporting
 

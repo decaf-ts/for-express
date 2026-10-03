@@ -1,62 +1,136 @@
 /**
- * @namespace cli
- * @description This script demonstrates a basic command-line interface (CLI) that counts down from 60 seconds and then exits.
- * @summary A simple CLI countdown timer that serves as a minimal example of how to create a CLI application using TypeScript.
- *
- * All files in the ./src/bin folder will have `#!/usr/bin/env node` included at the beginning of the file
- *
- *
- * @example
- * // Run the script
- * node cli.js
- *
- * @mermaid
- * sequenceDiagram
- *   participant User
- *   participant CLI
- *   participant Timer
- *   User->>CLI: Run script
- *   CLI->>User: Display initial message
- *   CLI->>Timer: Start countdown
- *   loop Every second
- *     Timer->>CLI: Decrement counter
- *     CLI->>User: Display current count
- *   end
- *   Timer->>CLI: Counter reaches 0
- *   CLI->>User: Exit process
- *
- * @memberOf module:ts-workspace
- * @see {@link https://nodejs.org/api/process.html#process_process_exit_code|Node.js process.exit()}
- * @see {@link https://developer.mozilla.org/en-US/docs/Web/API/setTimeout|MDN setTimeout()}
+ * @module for-express/bin/cli
+ * @summary Command line interface for the `@decaf-ts/for-express` package.
+ * @description Implements the `for-express` binary (see the `bin` entry in
+ * `package.json`) with three commands: `boot` spawns the application
+ * entrypoint as a child process (auto-discovering conventional entry files
+ * under `./lib` or `./src` when none is given), `version` prints the installed
+ * package version, and `help` prints usage. Mirrors the CLI surface of the
+ * other decaf integration packages.
  */
+import { spawn } from "node:child_process";
+import fs from "node:fs";
+import path from "node:path";
 
 /**
- * @const counter
- * @name counter
- * @description The countdown timer, initialized to 60 seconds.
- * @summary Used to track the remaining time in the countdown.
- * @type {number}
- * @memberOf module:ts-workspace.cli
+ * Conventional application entrypoints tried, in order, when `boot` is called
+ * without an explicit input; the first existing file relative to the current
+ * working directory wins.
+ * @const BOOT_INPUT_CANDIDATES
+ * @type {string[]}
+ * @category CLI
  */
-let counter = 60;
-console.log(`This is a poor example of a cli. will stop in ${60} seconds`);
+const BOOT_INPUT_CANDIDATES = [
+  "./lib/main.cjs",
+  "./lib/main.js",
+  "./src/main.ts",
+  "./lib/app.cjs",
+  "./lib/app.js",
+  "./src/app.ts",
+];
 
 /**
- * @function iterator
- * @description A recursive function that manages the countdown timer.
- * @summary It uses setTimeout to create a delay of 1 second between each count.
- * The function decrements the counter, logs the current count, and calls itself
- * until the counter reaches 0. When the counter reaches 0, the process exits.
- *
- * @return {void}
- * @memberOf module:ts-workspace.cli
+ * @function resolveBootInput
+ * @description Resolves the application entrypoint to boot: returns the
+ * explicit input when provided, otherwise the first candidate from
+ * {@link BOOT_INPUT_CANDIDATES} that exists relative to the current working
+ * directory, falling back to `./lib/main`.
+ * @summary Resolves the entrypoint for the `boot` command.
+ * @param {string} [input] - Explicit entrypoint path supplied on the command line.
+ * @return {string} The resolved entrypoint path.
+ * @category CLI
  */
-function iterator() {
-  setTimeout(() => {
-    if (!--counter) process.exit(1);
-    console.log(counter);
-    iterator();
-  }, 1000);
+function resolveBootInput(input?: string): string {
+  if (input) return input;
+  const found = BOOT_INPUT_CANDIDATES.find((candidate) =>
+    fs.existsSync(path.join(process.cwd(), candidate))
+  );
+  return found || "./lib/main";
 }
 
-iterator();
+/**
+ * @function printHelp
+ * @description Writes the CLI usage text (commands and defaults) to stdout.
+ * @summary Prints the `for-express` usage help.
+ * @return {void} Nothing; writes to stdout.
+ * @category CLI
+ */
+function printHelp(): void {
+  process.stdout.write(
+    [
+      "for-express - Express integration CLI for decaf-ts",
+      "",
+      "Usage:",
+      "  for-express boot [entry]   Boot the application entrypoint (defaults to ./lib/main)",
+      "  for-express version        Print the installed version",
+      "  for-express help           Print this help",
+      "",
+    ].join("\n")
+  );
+}
+
+/**
+ * @function printVersion
+ * @description Reads the package manifest next to the CLI bundle and writes
+ * `name@version` to stdout; writes `unknown` when the manifest cannot be read
+ * or parsed.
+ * @summary Prints the installed package version.
+ * @return {void} Nothing; writes to stdout.
+ * @category CLI
+ */
+function printVersion(): void {
+  try {
+    const pkg = JSON.parse(
+      fs.readFileSync(path.join(__dirname, "..", "..", "package.json"), "utf-8")
+    );
+    process.stdout.write(`${pkg.name}@${pkg.version}\n`);
+  } catch {
+    process.stdout.write("unknown\n");
+  }
+}
+
+/**
+ * @function boot
+ * @description Spawns the resolved entrypoint in a child node process,
+ * inheriting the current working directory, environment and stdio, and exits
+ * the CLI with the child's exit code when it closes.
+ * @summary Boots the application entrypoint as a child process.
+ * @param {string} [input] - Optional explicit entrypoint; resolved via {@link resolveBootInput} when omitted.
+ * @return {void} Nothing; the process exits with the child's exit code.
+ * @category CLI
+ */
+function boot(input?: string): void {
+  const entry = resolveBootInput(input);
+  const child = spawn(process.execPath, [entry], {
+    cwd: process.cwd(),
+    env: process.env,
+    stdio: "inherit",
+  });
+  child.on("close", (code) => process.exit(code ?? 0));
+}
+
+// CLI entrypoint: dispatch `boot [entry]`, `version` (`--version`/`-v`) and
+// `help` (`--help`/`-h`, or no command); unknown commands print help to stderr
+// and exit with status 1.
+const [, , command, ...args] = process.argv;
+
+switch (command) {
+  case "boot":
+    boot(args[0]);
+    break;
+  case "version":
+  case "--version":
+  case "-v":
+    printVersion();
+    break;
+  case "help":
+  case "--help":
+  case "-h":
+  case undefined:
+    printHelp();
+    break;
+  default:
+    process.stderr.write(`Unknown command: ${command}\n\n`);
+    printHelp();
+    process.exit(1);
+}

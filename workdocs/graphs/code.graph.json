@@ -1,0 +1,1767 @@
+{
+  "id": "code:/home/tvenceslau/local-workspace/decaf-ts/for-express",
+  "kind": "code",
+  "root": "/home/tvenceslau/local-workspace/decaf-ts/for-express",
+  "nodes": [
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/scripts/app.min.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/scripts/app.min.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/scripts/linenumber.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/scripts/linenumber.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/scripts/search.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/scripts/search.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/workdocs/reports/html/jest-html-reporters-attach/test-report/index.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/workdocs/reports/html/jest-html-reporters-attach/test-report/index.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/workdocs/reports/html/jest-html-reporters-attach/test-report/result.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/docs/workdocs/reports/html/jest-html-reporters-attach/test-report/result.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/eslint.config.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/eslint.config.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/jest.config.cjs",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/jest.config.cjs",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/out/scripts/app.min.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/out/scripts/app.min.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/out/scripts/linenumber.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/out/scripts/linenumber.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/out/scripts/search.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/out/scripts/search.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthInterceptor.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthInterceptor.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/constants.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/constants.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/DecafAuthHandler.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/DecafAuthHandler.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/bin/cli.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/bin/cli.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/controllers.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/controllers.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/controller-config.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/controller-config.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/expose.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/expose.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/types.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/types.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/types.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/types.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/utils.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/utils.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decoration.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decoration.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decorators.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decorators.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/constant.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/constant.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/EventsRouter.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/EventsRouter.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/ObserverSubscriptionRegistry.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/ObserverSubscriptionRegistry.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/utils.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/utils.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/cors.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/cors.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/throttling.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/throttling.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/DecafErrorFilter.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/DecafErrorFilter.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/constants.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/constants.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/SwaggerBuilder.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/SwaggerBuilder.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/Adapter.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/Adapter.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/constants.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/constants.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/logging.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/logging.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/ModelBuilderExtensions.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/ModelBuilderExtensions.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/overrides.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/overrides.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/contextualize.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/contextualize.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafAuthHandler.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafAuthHandler.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafHandlerExecutor.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafHandlerExecutor.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/swagger-types.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/swagger-types.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/types.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/types.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/utils.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/src/utils.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafErrorFilter-logging.e2e.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafErrorFilter-logging.e2e.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafModelModule-crud.e2e.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafModelModule-crud.e2e.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/events-subscriptions.e2e.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/events-subscriptions.e2e.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/ExpressBootstraper.e2e.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/ExpressBootstraper.e2e.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/fake.handler.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/fake.handler.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/mockAuth.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/mockAuth.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/mockTransformer.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/mockTransformer.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Fake.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Fake.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProcessStep.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProcessStep.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProductAdmin.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProductAdmin.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/sse-fingerprints.e2e.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/sse-fingerprints.e2e.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-crud.integration.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-crud.integration.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-routes.integration.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-routes.integration.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/error-filter.integration.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/error-filter.integration.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/swagger.integration.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/swagger.integration.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/setup.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/setup.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/decaf-model-utils.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/decaf-model-utils.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/DecafErrorFilter.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/DecafErrorFilter.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/events-utils.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/events-utils.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/express-bootstraper-extra.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/express-bootstraper-extra.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/factory-errors.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/factory-errors.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/module.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/module.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/observer-subscription-registry.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/observer-subscription-registry.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/overrides.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/overrides.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/request-context-extra.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/request-context-extra.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/request-contextualize.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/request-contextualize.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/resolve-route-args.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/resolve-route-args.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/SwaggerBuilder.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/SwaggerBuilder.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/utils.test.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/utils.test.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/workspace-target.ts",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/workspace-target.ts",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/html/jest-html-reporters-attach/test-report/index.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/html/jest-html-reporters-attach/test-report/index.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/html/jest-html-reporters-attach/test-report/result.js",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/html/jest-html-reporters-attach/test-report/result.js",
+      "kinds": [
+        "code"
+      ]
+    },
+    {
+      "id": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/jest.coverage.config.cjs",
+      "path": "/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/jest.coverage.config.cjs",
+      "kinds": [
+        "code"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "022ec1532b5364b3c02ef13542d4dd059a87ddeb6c727c099b657be28881a4da",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/sse-fingerprints.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/utils"
+    },
+    {
+      "id": "054f0bfc8a7bba58543d85cdaf76977b8508f5dd10e3ebe14885216df2fe3fff",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decorators.ts",
+      "kind": "dependency",
+      "specifier": "./decorators"
+    },
+    {
+      "id": "0a59a4bcd287e9f777a0d453957e2395c97f4e5947efe8073fc3866b1a3c6d73",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/DecafErrorFilter.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/throttling.ts",
+      "kind": "dependency",
+      "specifier": "../errors/throttling"
+    },
+    {
+      "id": "0ade13c8b4b0072538dc3387b4a50c36ae2a81821c71173bba87a5a8ae9abb40",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "kind": "dependency",
+      "specifier": "./AuthMiddleware"
+    },
+    {
+      "id": "0b8d4d7f2dfb24f2d9585425fb532cda5fea6852bdec2f64f7aa9c0cb19832c1",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafModelModule-crud.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/models/Product"
+    },
+    {
+      "id": "0bb1eedbbe57428ef7091ec47d3b2533ab85ac5db455780892ba5cc7d439a4fc",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/utils"
+    },
+    {
+      "id": "0fa1be61de10a14e1084ad531a8049ca7f733bca9f1b7c872e2fe146fa1a6fd8",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decoration.ts",
+      "kind": "dependency",
+      "specifier": "./decoration"
+    },
+    {
+      "id": "158deb1ed5b9d92937f9750adb75fa112b74fb10804e56399f84e6cae4bbdaf8",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/factory-errors.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/throttling.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/errors/throttling"
+    },
+    {
+      "id": "15b7e6e9cdcdff8062ca69d8e4a3a487a38727bc307aac8ec9a519de76d4bd66",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "kind": "dependency",
+      "specifier": "./events-module"
+    },
+    {
+      "id": "1a2db852cf446f2d3299ee13be0c6be799b6ff8b54945dea72d5e28b8974eff3",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/utils"
+    },
+    {
+      "id": "1b42d09834fc9b0cc313879b1496e65ea958a2e89a9eb10afa3bbe61e74a1d30",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "kind": "dependency",
+      "specifier": "./openapi"
+    },
+    {
+      "id": "1b8ab8a112278dff94cad76370d19e388b293ad28bd10fca7c81ca6de7dfed87",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/expose.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kind": "dependency",
+      "specifier": "../../constants"
+    },
+    {
+      "id": "1b9f1dfd90213bad28aa168a2783204f153e0b8428c9d6193253c42748339127",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-crud.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/utils"
+    },
+    {
+      "id": "1c16c9a52604c7523f4169ee5966fed2e4bf031beff9b9023cd6da611f839eed",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/request-contextualize.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/contextualize.ts",
+      "kind": "dependency",
+      "specifier": "../../src/request/contextualize"
+    },
+    {
+      "id": "1cb658228041fb0e26bb3390934c0f3926d8d4aaff51b13fff94318e58e2e732",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/index.ts",
+      "kind": "dependency",
+      "specifier": "./errors"
+    },
+    {
+      "id": "22f009708718754e21459dd8cddca5af55a01c0898faf799d16cd07f28a40350",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/DecafAuthHandler.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/DecafAuthHandler"
+    },
+    {
+      "id": "24bd16cc23ea8603bfaae78157ba21d62bd14c6110d4d44cca15d6e5a8d2f54b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "kind": "dependency",
+      "specifier": "./openapi"
+    },
+    {
+      "id": "2517d9e93d8bf7ab542283e7eaebc8f296de4afb3621ee9bd11844af600a7aba",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-routes.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/utils"
+    },
+    {
+      "id": "29622279e237ba76da592162ed2e139b0cb2e067b6318b41726e8a8082c5e9fa",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "kind": "dependency",
+      "specifier": "./ExpressBootstraper"
+    },
+    {
+      "id": "2bb5c0a5ef5857ebc4fc0af2dd64b9302afb862468d8ce6a45d68b5130c73542",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/express-bootstraper-extra.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/ExpressBootstraper"
+    },
+    {
+      "id": "2f4f2b4b992360ccb3d79de8d65e7b54243926e680ea3ef6181136c564390c84",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/error-filter.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/models/Product"
+    },
+    {
+      "id": "338aabcfede03b949e7e2e1e4cc1a300c7e6a1f3520615677a30129d206f0da2",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/contextualize.ts",
+      "kind": "dependency",
+      "specifier": "./request/contextualize"
+    },
+    {
+      "id": "3b90cdb964c37336740ec012915b8ba0ef18576a76c2baea14b23e75233ff8fb",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "kind": "dependency",
+      "specifier": "./module"
+    },
+    {
+      "id": "3e0f40f1d6ab7f86b69b585961bc362d17c221a095bae4cf1b916993773109c0",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/controllers.ts",
+      "kind": "dependency",
+      "specifier": "./controllers"
+    },
+    {
+      "id": "3e84e90dcd2dbd2b25f1b714c9987c0542391ed9fb68e41d4ec819a547c94069",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/swagger.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/openapi"
+    },
+    {
+      "id": "41bc68a8600d59e0f452e636a015605d5d05d7000e21cf61e021cd33a6163c25",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/utils.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/utils.ts",
+      "kind": "dependency",
+      "specifier": "../../src/utils"
+    },
+    {
+      "id": "42c210525e1c4e89ca826808ffd74a94ca9f486c81ef601dfbfc4bddbb4aa4d9",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/types.ts",
+      "kind": "dependency",
+      "specifier": "./types"
+    },
+    {
+      "id": "42c9d86b61ef096442960f39049675b0c45ab56b51bc8af114894a9f5d2f0ba2",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/DecafAuthHandler.ts",
+      "kind": "dependency",
+      "specifier": "./DecafAuthHandler"
+    },
+    {
+      "id": "446af87154d3923c4742568c99428cc844a98bde1557431f55f380166b946e5b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/error-filter.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/app"
+    },
+    {
+      "id": "45c1151fb9fef94d31abfa72ae5210a04e0aa96ccc5cc6801c18e6845fb94b2b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "kind": "dependency",
+      "specifier": "./decaf-model/DecafModelModule"
+    },
+    {
+      "id": "4919a89b5ec6b8db7c141a7ebcea0076228ebf1140cf6614d8e8f27e29dfedce",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decaf-model/decorators/decorators"
+    },
+    {
+      "id": "4971a3dc85b7c98042cecbf1b891d211c0098f0ea566d957eb7b774fbbbcc218",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "kind": "dependency",
+      "specifier": "./decorators"
+    },
+    {
+      "id": "499059ff283e72ce05d8b057a15e03c2904dd923583563226496872248e4c321",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/decorators"
+    },
+    {
+      "id": "4b046c47d08a7cee939626e7a6adbff88adea2e827ffa742bc0b756ff97d0094",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/controllers.ts",
+      "kind": "dependency",
+      "specifier": "../controllers"
+    },
+    {
+      "id": "4c68f9e66bf33cddd14a38c21f87c682e64d470a8e9208bd9cd8c2753eda39c6",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decoration.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decoration"
+    },
+    {
+      "id": "4c9b13e92c44d9490fe9dbddc42a7c222a15e1cd8831139e77a834565d396ff4",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/ObserverSubscriptionRegistry.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/utils.ts",
+      "kind": "dependency",
+      "specifier": "./utils"
+    },
+    {
+      "id": "50b9f77af878868dbc082d883e2831d073e63dfc36a018a04d8c557f75cc70e2",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/Adapter.ts",
+      "kind": "dependency",
+      "specifier": "./Adapter"
+    },
+    {
+      "id": "5194453522051cd07624d41640c60e65cd8ef0bb38a7a7de8bae4ceece208647",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/EventsRouter.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/utils.ts",
+      "kind": "dependency",
+      "specifier": "./utils"
+    },
+    {
+      "id": "5624a6e7c2f3f3c28a7af31efddf46e21338d20d36336127c23ceda6c835235b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/expose.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decaf-model/decorators/expose"
+    },
+    {
+      "id": "58e95fb0f3236deb0abb32e6ee07db901b0d7ff72483ab5633dd7918c8a1b937",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthInterceptor.ts",
+      "kind": "dependency",
+      "specifier": "../auth/AuthInterceptor"
+    },
+    {
+      "id": "596670262ca71919762a3e034380419a12868c6c9ee76e61cd188f51ac5c9488",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/utils.ts",
+      "kind": "dependency",
+      "specifier": "./utils"
+    },
+    {
+      "id": "596a52d84c8c856c8e3236b1eab134417d73f0c78f02b419e87e5bbe8a244449",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafAuthHandler.ts",
+      "kind": "dependency",
+      "specifier": "./DecafAuthHandler"
+    },
+    {
+      "id": "59c6358b05d34736053c9f097c7afd4b0901e95b933df6272f0bb91234955973",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/SwaggerBuilder.ts",
+      "kind": "dependency",
+      "specifier": "./SwaggerBuilder"
+    },
+    {
+      "id": "5a33acd992f954556f7da5e435a095fe3d0aaf70c7949565412c82b3d7bf2f8f",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/overrides.ts",
+      "kind": "dependency",
+      "specifier": "./overrides"
+    },
+    {
+      "id": "5b53135c5b41b39923ab6afe1e0738d7bc27c366928f87cbacbd47575ef3d33d",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/constant.ts",
+      "kind": "dependency",
+      "specifier": "./constant"
+    },
+    {
+      "id": "5f52912cb47ef3338eed94802216b2b3c2c9d33b1657d90d94f7f4cc91979abe",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-crud.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/app"
+    },
+    {
+      "id": "5fc81009f57bd9bfd7ea6f192735fe7da8ab81fd76fc9f2e4ab710bf3d31535e",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/swagger.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/ExpressBootstraper"
+    },
+    {
+      "id": "656b474c98c5f76a6bd19de95ee37cf64d41b5e479179b7bd12c59e22874ede2",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "kind": "dependency",
+      "specifier": "../../auth/decorators"
+    },
+    {
+      "id": "66cfd3137df78a88011f50c5cbe1f3f1a7d0fd4ae29caf41631d5f016e5879b9",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decaf-model/decorators/decorators"
+    },
+    {
+      "id": "681c841f4c83c02a9809618c09451f98f2171012d0b69bbef8eb23724f9c0d68",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-crud.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/models/Product"
+    },
+    {
+      "id": "69a360064e881a55324f3e38cc113c3498ef93dd6644a789e022c3399aba6fae",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "kind": "dependency",
+      "specifier": "./decorators"
+    },
+    {
+      "id": "69ce78013fea0f62fb9f444ae3bc0267a9bc33f85f17e8ab6ec23b5e9125e414",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/controller-config.ts",
+      "kind": "dependency",
+      "specifier": "./controller-config"
+    },
+    {
+      "id": "6dfed9d935cf14c074c1a8dcc818a223685f4b9e630252497da991ce2b5a3e27",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/sse-fingerprints.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/DecafAuthHandler.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/DecafAuthHandler"
+    },
+    {
+      "id": "6eb8de75c3ceb6a8df231cc6dc28bdfc3774bcf35d547fff1b5896b14a5fb813",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/index.ts",
+      "kind": "dependency",
+      "specifier": "./exceptions"
+    },
+    {
+      "id": "6f6c5797e1da9312d4c8c89d455244773e5c755ca89d7e676ce900e99e28fe86",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/logging.ts",
+      "kind": "dependency",
+      "specifier": "./logging"
+    },
+    {
+      "id": "71d7c402cd735adf989777def7d9aa784a36406cf54d5d4249c796e4b17168bb",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/utils.ts",
+      "kind": "dependency",
+      "specifier": "./utils"
+    },
+    {
+      "id": "71ee5b27f79c2153b956d5db8c900f4d83b3c82d27fe49c6c17e0c572ee49c2b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/overrides.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "kind": "dependency",
+      "specifier": "../../src/overrides"
+    },
+    {
+      "id": "7282ad88f29414be168f049168f6075bce076e13a9c29aa9716d879ecbcfc7c0",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafHandlerExecutor.ts",
+      "kind": "dependency",
+      "specifier": "./DecafHandlerExecutor"
+    },
+    {
+      "id": "72f0ca37ac326b37f8cb13a1873e68819d7d39396c9bec303e8ddd0a7a308587",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/events-subscriptions.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProcessStep.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/models/ProcessStep"
+    },
+    {
+      "id": "7383724a780435e2d86bcef92a4f985005cb7edbec280dfa704333743242abda",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/events-subscriptions.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/app"
+    },
+    {
+      "id": "767d1d817a2544c707f0e293f0dd869de4984190abe85764d43aca4f7e6f2541",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/controller-config.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decaf-model/decorators/controller-config"
+    },
+    {
+      "id": "779fa8fada326a259eb27d0a940ec03014a47a8726be744d5c9f3853fb783aaa",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/workdocs/reports/jest.coverage.config.cjs",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/jest.config.cjs",
+      "kind": "dependency",
+      "specifier": "../../jest.config.cjs"
+    },
+    {
+      "id": "78b79dad3b5ccdc5e8d445a799d6cbb001711891b129d31ebb3e423ed7118090",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/ModelBuilderExtensions.ts",
+      "kind": "dependency",
+      "specifier": "./ModelBuilderExtensions"
+    },
+    {
+      "id": "7915e6a76e91d57aeff1a6dd99ba86f366189e991b1447cc1b80eb3c36826c98",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kind": "dependency",
+      "specifier": "../constants"
+    },
+    {
+      "id": "7a549cb09aadfa8332028cf79e7a0f467be49489bac6dd43ab6ead3793f41a73",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kind": "dependency",
+      "specifier": "./constants"
+    },
+    {
+      "id": "7b0d5bd64c1ea76416fb046267dccdcd0cb3231986b6b52ef11f45a0d11394fa",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/app"
+    },
+    {
+      "id": "7c61df2e7a4d78050b8c80a60bb59fa00d0b3fe1e1376968f747b8ddcae6430f",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/ExpressBootstraper.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/ExpressBootstraper"
+    },
+    {
+      "id": "80852c31b807afe2b4c0fb4670bdbbf92eb7764e7ff514bcb7142eff5cf67614",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "kind": "dependency",
+      "specifier": "../../../src"
+    },
+    {
+      "id": "80f3417f67d894edad7610d2af997bbf63d177a20b1fcb7057574c4bf8194b4d",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafAuthHandler.ts",
+      "kind": "dependency",
+      "specifier": "../../src/request/DecafAuthHandler"
+    },
+    {
+      "id": "84ead427a7c771ac4ecc90e785cf2f33ee2544f140cbcfec6b084cf43427472b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/overrides.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/constants.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/constants"
+    },
+    {
+      "id": "866bf609658e08a84095d08a1abe4a275b9e6a5d77b942257ea05333e8643cce",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/SwaggerBuilder.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/openapi"
+    },
+    {
+      "id": "86c3eb29e2b6f94f094198a9ac4f0f72e50e3666be2b41348922b24409fc6294",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kind": "dependency",
+      "specifier": "../../src/constants"
+    },
+    {
+      "id": "8737a398fa8f0dff390ce513f8cc1f4d1f49bf64e5a3831613cc3b582c4b83c6",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthInterceptor.ts",
+      "kind": "dependency",
+      "specifier": "./AuthInterceptor"
+    },
+    {
+      "id": "87fc822a4a705c9f171cc51ad6675ef6233b1a2639a39f769aeeb97205e3c951",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "kind": "dependency",
+      "specifier": "./factory"
+    },
+    {
+      "id": "8983bb8f5ee231cdb71a01359fdf73d5380e04aec7f6506a716460f4f2c2cf46",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/cors.ts",
+      "kind": "dependency",
+      "specifier": "./cors"
+    },
+    {
+      "id": "8b53379daeabc435ca0a33b79d77b31083718e91693e260d861ebe413be978ec",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "kind": "dependency",
+      "specifier": "./core-module"
+    },
+    {
+      "id": "8cfefea311ad0a254d55376f91843228b6dd5506b52ca653786e8ff6ab2e28e9",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decoration.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "kind": "dependency",
+      "specifier": "./auth/decorators"
+    },
+    {
+      "id": "8cffa013ca4a0032f203070a1385e140af429d552d44ef8b9752136c675c01b4",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/DecafAuthHandler.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/DecafAuthHandler"
+    },
+    {
+      "id": "8eb5c149c8683e97aa61aba77134bb7d50ab9da80002d59fac1256a25a65927b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/DecafErrorFilter.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/DecafErrorFilter.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/exceptions/DecafErrorFilter"
+    },
+    {
+      "id": "8f56d1adbf51ffa66acb8aab467cd7f4cd48a6e6e48c416e52468d91026ec2f8",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/utils.ts",
+      "kind": "dependency",
+      "specifier": "./utils"
+    },
+    {
+      "id": "917d47cbac3371a6a7f39be0202aeac79b3a012e736aa4fb19397475fad0fc32",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Fake.ts",
+      "kind": "dependency",
+      "specifier": "./Fake"
+    },
+    {
+      "id": "91eb2b4f9660d50222e42725fbce6331636b14aaa8d3692bb2ab4fe1584ffddb",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/observer-subscription-registry.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/ObserverSubscriptionRegistry.ts",
+      "kind": "dependency",
+      "specifier": "../../src/events-module/ObserverSubscriptionRegistry"
+    },
+    {
+      "id": "925e01574242e730fd5e52ee8e9e6dba83419cd338b7c37995b02453ff4cd6eb",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/EventsRouter.ts",
+      "kind": "dependency",
+      "specifier": "./EventsRouter"
+    },
+    {
+      "id": "941ef3ebd2eea32ebc3f5f7b1a95e9116edcad3a4781f0f9ac73fcc7879311dc",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "kind": "dependency",
+      "specifier": "../request/DecafRequestContext"
+    },
+    {
+      "id": "9457cec567c2f5e39677da84a2a00edc15b4d1415e63dc972edad89a7fe5390e",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProductAdmin.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/models/ProductAdmin"
+    },
+    {
+      "id": "95cb1197f0c74b40d65a38b66ea641918ea8f509ac879cd49b02d47a41ef6487",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "kind": "dependency",
+      "specifier": "./decaf-model"
+    },
+    {
+      "id": "979e907e56451325673b3859aeb742d6d40df603c4957fc988320102019b9af4",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "kind": "dependency",
+      "specifier": "./core-module"
+    },
+    {
+      "id": "98b2fcbbe59c8a0f6a8d361914a2bde9fb6fb05048c95d0fa41cc6fe3da75b0a",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "kind": "dependency",
+      "specifier": "./auth"
+    },
+    {
+      "id": "99e24b35ff51cbc3dd6c229549a819e901e122fcae6295aa71c3e99d8d3e9866",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/ObserverSubscriptionRegistry.ts",
+      "kind": "dependency",
+      "specifier": "./ObserverSubscriptionRegistry"
+    },
+    {
+      "id": "9cacfa4a70674abe2b13d955270b475cd532c1136cac9aa2d16dd662058b98ff",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "kind": "dependency",
+      "specifier": "./FromModelController"
+    },
+    {
+      "id": "9d74da7edd779f364a35ffb45ae5434e381fa60a43f3d93cc2126419766e6f94",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/contextualize.ts",
+      "kind": "dependency",
+      "specifier": "../request/contextualize"
+    },
+    {
+      "id": "a2b0631bf80da12cf13adf35130bbe41ced87117ceababfcc89412e83ec5d887",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-routes.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/models/Product"
+    },
+    {
+      "id": "a56fd8153690abf1eee8517ea567c7055c52cc7e333a4a6741357204e9d05dc7",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/request-context-extra.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "kind": "dependency",
+      "specifier": "../../src/request/DecafRequestContext"
+    },
+    {
+      "id": "a63b8f18d4e6b94cf4ceaa7699fef487d30b5fd1dec8b219236e8f7f89d84625",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/controller-config.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kind": "dependency",
+      "specifier": "../../constants"
+    },
+    {
+      "id": "a7645031136f60833021668fd02baaed51e2b9518401133cbe691fe65fb0b63b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/module.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "kind": "dependency",
+      "specifier": "../../src/module"
+    },
+    {
+      "id": "aa74bb417f51b61f640981e2464dced69c21fbc311776fd8a36799762f7e71f3",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/SwaggerBuilder.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/constants.ts",
+      "kind": "dependency",
+      "specifier": "./constants"
+    },
+    {
+      "id": "aa7f6cb9ba5960e5adc17f6367a1e68512ffad110f7c41fe6b5796be4f84deb7",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "kind": "dependency",
+      "specifier": "./auth/AuthMiddleware"
+    },
+    {
+      "id": "ac12ecb910b3df46fa04a892ce9b025763016d7c6c877632efa41b9d077fd9d9",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/ProductAdmin.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/models/ProductAdmin"
+    },
+    {
+      "id": "ad6f26c39b69b2dc9b9eff02f2339777c1fd5867bebb1b79274a25a9275a5791",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthInterceptor.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/AuthInterceptor"
+    },
+    {
+      "id": "ae922d32c5cea2f337b946efcb096d1834cf9e465a446734aa82e8d40f8fe43c",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthMiddleware.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/AuthMiddleware"
+    },
+    {
+      "id": "af44d138618e2482d6ca6f43f2803df41b7dd2a1188464a8ec06d35797b2a740",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/EventsRouter.ts",
+      "kind": "dependency",
+      "specifier": "./events-module/EventsRouter"
+    },
+    {
+      "id": "b0152428b114e358a5551e64d4e02537da7f79bee35f52eb74b0e341cfb7d045",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/mockAuth.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "kind": "dependency",
+      "specifier": "../../../src"
+    },
+    {
+      "id": "b24af8be52871a37618f365c078cb981cbde7d3ec72a2faa257ed9bd9af5c1f0",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-routes.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/app"
+    },
+    {
+      "id": "b31e213e170bd3ff1673de149803945faba0ee3df0364042afb706def3191d45",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/decaf-module-routes.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "kind": "dependency",
+      "specifier": "../../src"
+    },
+    {
+      "id": "b37e776168a8562f3e32513b1f8f17f9ae2fa28287af3b96565b7b41e569abd9",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafErrorFilter-logging.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/index.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/exceptions"
+    },
+    {
+      "id": "b6b4fddbcaf709cee24d035bc23f9e7f02e30689bf70b618d9eb4147964da04c",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "kind": "dependency",
+      "specifier": "../../src/request/DecafRequestContext"
+    },
+    {
+      "id": "b90abca5df372f543464bb21d95efc21cab00e90fce4c1e72210d880b92edf8f",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/index.ts",
+      "kind": "dependency",
+      "specifier": "./errors"
+    },
+    {
+      "id": "badcfb52952672699aa6adab336862631da95c83206b836e2fdd5ee4f31d24ed",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "kind": "dependency",
+      "specifier": "./overrides"
+    },
+    {
+      "id": "bc171e3989c6e6414582665555b31da9bdfe6945be2d83ce6c7295243a8485bb",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/error-filter.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/utils"
+    },
+    {
+      "id": "bc3fd24c56e7286c17c46886f9af9329e98c2f3c28f6ac653f74c4dac2cbb6e1",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decorators.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "kind": "dependency",
+      "specifier": "./auth/decorators"
+    },
+    {
+      "id": "bdd8c198179ad32e2c826773790c1a2cb275f76c8df3f66a998a101dd2446eda",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "kind": "dependency",
+      "specifier": "./DecafModelModule"
+    },
+    {
+      "id": "c596588c3131ceeda01f55ba9cdb7a44dfb14d3f78f32243333376fbc3eebe60",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/ObserverSubscriptionRegistry.ts",
+      "kind": "dependency",
+      "specifier": "./events-module/ObserverSubscriptionRegistry"
+    },
+    {
+      "id": "c6d2c1e4a186b09dccc7a0cb935ccfc5cd6f21fa45e3699326adfea7690ceb11",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/ModelBuilderExtensions.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/decorators.ts",
+      "kind": "dependency",
+      "specifier": "../decaf-model/decorators/decorators"
+    },
+    {
+      "id": "c789138b9110a48c6d3ba982b529bf7b816de003596d3e8ca8df83c231c3ac47",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/events-utils.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/events-module/utils.ts",
+      "kind": "dependency",
+      "specifier": "../../src/events-module/utils"
+    },
+    {
+      "id": "c81c970787cdfdc4d529d898f26cc2265f317bc16e91d575c0dfa7805c099e18",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafErrorFilter-logging.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/models/Product.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/models/Product"
+    },
+    {
+      "id": "c822f88076c0ce22adde9365ed52ad6cb7fe3738e0009948d17833e9ef5be85c",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decorators.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decorators"
+    },
+    {
+      "id": "c8a7fc0327f46ce0d700bb6f0638bafd15664f90c2f10d568fb35029ba53e687",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/AuthInterceptor.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/AuthInterceptor"
+    },
+    {
+      "id": "cae5605089e2fc55ec3ff5a4ab2aa2e3ff05b291f17802fc050663796207d92b",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/DecafErrorFilter.ts",
+      "kind": "dependency",
+      "specifier": "./DecafErrorFilter"
+    },
+    {
+      "id": "cd93b58c9199d5f0079dd786dd0548efbe1c7a7e47c805176fa3a1083111dc6c",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/constants.ts",
+      "kind": "dependency",
+      "specifier": "./constants"
+    },
+    {
+      "id": "cec61a476755df84d0f99570ce6ad612b1a5cdec92f75da89828a54080072458",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/ExpressBootstraper.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/exceptions/index.ts",
+      "kind": "dependency",
+      "specifier": "./exceptions"
+    },
+    {
+      "id": "d4710f28a8338a1162a326bf35945bada5fcd86458220e2fc4f0c7329161b661",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/public-api.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "kind": "dependency",
+      "specifier": "../../src"
+    },
+    {
+      "id": "d692d161b6e5e29fc6fc31d6b6a8c4f30da54018d0359109709c365ab2d29f81",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/fake.handler.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/fake.handler"
+    },
+    {
+      "id": "d83c4ca2b599a6eeb9db790c1d31b6186bb1057eb699dcd3d7554a4c2f329d9f",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/types.ts",
+      "kind": "dependency",
+      "specifier": "./types"
+    },
+    {
+      "id": "d858162798cf799ed97977628b66ad45c6e7ce3427d23102e7dbec7626c2e8ac",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/resolve-route-args.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decaf-model/FromModelController"
+    },
+    {
+      "id": "daaf37b12e313c62d3cc823b0b67c58b1966f470c77ea828b389982289782e9e",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/constants.ts",
+      "kind": "dependency",
+      "specifier": "../constants"
+    },
+    {
+      "id": "db52d20f32c640e6b8d51f7bac38425d60f869357dbe1589bba11107617bb3d5",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/decorators.ts",
+      "kind": "dependency",
+      "specifier": "./decorators"
+    },
+    {
+      "id": "dc91b187a0ad0d6a1cee879f0a9da9ea7e0b52e670ed01aaaab9a5de943cb729",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/factory-errors.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/cors.ts",
+      "kind": "dependency",
+      "specifier": "../../src/factory/errors/cors"
+    },
+    {
+      "id": "dd127059ce80f8da44117f29d5f2b7ad786cb9e20b747759b604fe562ac73f56",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/types.ts",
+      "kind": "dependency",
+      "specifier": "./types"
+    },
+    {
+      "id": "dd3657ec189ea37e2896df0c35ab37e13dc6545f142a78922f4bef546cb870b0",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/DecafModelModule.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/FromModelController.ts",
+      "kind": "dependency",
+      "specifier": "./FromModelController"
+    },
+    {
+      "id": "de71f8834287e1f9be52bed2e0ddaa21bbf56a8927c1ac9ddebdeaf8a7464a0e",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/sse-fingerprints.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/app"
+    },
+    {
+      "id": "df27c922361a019ae2202bc73a17a811752d5be82a48db04b5ef8de19a5a34f5",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafModelModule-crud.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/utils.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/utils"
+    },
+    {
+      "id": "e0b57558adde978fcb5ef3035f81e6975191edcf60dd448626926fda69c62f29",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/constants.ts",
+      "kind": "dependency",
+      "specifier": "./constants"
+    },
+    {
+      "id": "e0b5dd7edcc73c09794d0a07dc5a308472bdd6e1f1ea04a849257503dc5d3333",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/overrides.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/overrides/ModelBuilderExtensions.ts",
+      "kind": "dependency",
+      "specifier": "../../src/overrides/ModelBuilderExtensions"
+    },
+    {
+      "id": "e18227a2a11cc79a7184074ae621597a14945f72eb6baa73566fe8a8e87428ea",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "kind": "dependency",
+      "specifier": "./request"
+    },
+    {
+      "id": "e1a4903236bd9a3fe23d91e0dfdc2ff517c933bb9704e2da541aa542e6e54389",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/integration/auth.integration.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "../e2e/fakes/app"
+    },
+    {
+      "id": "e63166911bd1b547ac51dcae721894bc7fffcd204efe309d6d16065d76eb2574",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafErrorFilter-logging.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/app"
+    },
+    {
+      "id": "e67da8e225b20cb0e20acdd9e14acc55041779f5e8faa7768eccec06013cf1df",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/decaf-model-utils.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/utils.ts",
+      "kind": "dependency",
+      "specifier": "../../src/decaf-model/utils"
+    },
+    {
+      "id": "e734420a23cfec3dd029c0a314725d3d25e2a93b9236dfdd667522a2f3d5b1eb",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/contextualize.ts",
+      "kind": "dependency",
+      "specifier": "./contextualize"
+    },
+    {
+      "id": "e971606a300d0684b9b61646155f64f86365efc0a425019d554bea061482668c",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/openapi/constants.ts",
+      "kind": "dependency",
+      "specifier": "./constants"
+    },
+    {
+      "id": "eab26a37924c0531df9d9d6532788ba6e08b7c89963b0404094070b6ea78732a",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "kind": "dependency",
+      "specifier": "./request/DecafRequestContext"
+    },
+    {
+      "id": "ec084a2ed324229a952bb996f3510ca3555397b6b042465c807de8ebc32f9213",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/decaf-model/decorators/expose.ts",
+      "kind": "dependency",
+      "specifier": "./expose"
+    },
+    {
+      "id": "ec3631f71888fcc53547147bfe4a79408fe83e081d6a388d88e0beaee5b296f3",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/factory/errors/throttling.ts",
+      "kind": "dependency",
+      "specifier": "./throttling"
+    },
+    {
+      "id": "f020affa6c86d3b00ecb4a406a882dcae3d9c1b53fb1df701cca459f5dc24665",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/constants.ts",
+      "kind": "dependency",
+      "specifier": "./constants"
+    },
+    {
+      "id": "f0a97f3fb99c3491bb2af54bb23e29d921d7e505d54251a82d39cde9d87b2b63",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/AuthExecutionOrder.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafHandlerExecutor.ts",
+      "kind": "dependency",
+      "specifier": "../../src/request/DecafHandlerExecutor"
+    },
+    {
+      "id": "f4608bcd847c8d66b9e069719c2406ed724915234f3abcf436af6582adefe0f8",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/index.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafRequestContext.ts",
+      "kind": "dependency",
+      "specifier": "./DecafRequestContext"
+    },
+    {
+      "id": "f73e3fcf858abea43ec87aeff2e8c82f494196918e9496a3f8bb14676cdb60a0",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/DecafModelModule-crud.e2e.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/e2e/fakes/app.ts",
+      "kind": "dependency",
+      "specifier": "./fakes/app"
+    },
+    {
+      "id": "f82a5505b9f3afa8de9e6729e272034b4cdc9e64b927bdeb053c18cfde30ccae",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/core-module.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/request/DecafHandlerExecutor.ts",
+      "kind": "dependency",
+      "specifier": "./request/DecafHandlerExecutor"
+    },
+    {
+      "id": "fb10d412d1ded835442b1e49123dd6adbe143a5fecf0158cf6019d0c5eb8c6ee",
+      "source": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/tests/unit/auth-decorators.test.ts",
+      "target": "file:/home/tvenceslau/local-workspace/decaf-ts/for-express/src/auth/constants.ts",
+      "kind": "dependency",
+      "specifier": "../../src/auth/constants"
+    }
+  ],
+  "fingerprint": "ce50ad45d7213b4c5d79c27b9e0212c995d2da0a90faf424a6682eae7c632512"
+}
