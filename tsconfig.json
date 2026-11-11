@@ -22,6 +22,7 @@
     "sourceMap": true /* MUST be enabled to allow debugging of code and tests */,
     // "outFile": "./",                             /* Concatenate and emit output to single file. */
     "outDir": "lib" /* Build targets override this per output format. */,
+    "rootDir": "." /* Keep TypeScript 6 output paths stable across src and tooling. */,
     "rootDirs": [
       "src",
       "tests"

@@ -29,7 +29,7 @@
 
 Documentation available [here](https://decaf-ts.github.io/for-express/)
 
-Minimal size: 107.9 KB kb gzipped
+Minimal size: 9.5 KB kb gzipped
 
 
 ### Description

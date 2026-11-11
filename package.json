@@ -86,8 +86,8 @@
   },
   "homepage": "https://github.com/decaf-ts/for-express#readme",
   "devDependencies": {
-    "@decaf-ts/cli": "latest",
-    "@decaf-ts/utils": "latest",
+    "@decaf-ts/cli": "^0.14.0",
+    "@decaf-ts/utils": "^2.0.6",
     "@eslint/js": "^9.25.1",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
@@ -102,18 +102,19 @@
     "rimraf": "^6.0.1",
     "supertest": "^7.1.4",
     "ts-jest": "^29.4.0",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.30.1"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.30.1",
+    "@decaf-ts/for-testing": "^1.3.7"
   },
   "dependencies": {
-    "@decaf-ts/core": "latest",
-    "@decaf-ts/db-decorators": "latest",
-    "@decaf-ts/decoration": "latest",
-    "@decaf-ts/decorator-validation": "latest",
-    "@decaf-ts/for-http": "latest",
-    "@decaf-ts/injectable-decorators": "latest",
-    "@decaf-ts/logging": "latest",
-    "@decaf-ts/transactional-decorators": "latest",
+    "@decaf-ts/core": "^0.34.2",
+    "@decaf-ts/db-decorators": "^0.20.0",
+    "@decaf-ts/decoration": "^0.20.0",
+    "@decaf-ts/decorator-validation": "^1.24.0",
+    "@decaf-ts/for-http": "^0.22.0",
+    "@decaf-ts/injectable-decorators": "^1.21.0",
+    "@decaf-ts/logging": "^0.30.3",
+    "@decaf-ts/transactional-decorators": "^0.14.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
@@ -127,10 +128,24 @@
       "ajv": "^6.14.0"
     },
     "eslint": {
-      "ajv": "^6.14.0"
+      "ajv": "^6.14.0",
+      "minimatch": "^11.0.5"
     },
     "multer": "^2.1.2",
-    "test-exclude": "^7.0.2",
-    "js-yaml": "^5.2.2"
+    "test-exclude": {
+      ".": "^8.0.0",
+      "glob": "^14.0.4",
+      "minimatch": "^11.0.5"
+    },
+    "js-yaml": "^5.2.2",
+    "glob": "^14.0.4",
+    "minimatch": "^11.0.5",
+    "dpdm": {
+      "glob": "^14.0.4",
+      "minimatch": "^11.0.5"
+    },
+    "typescript-eslint": {
+      "minimatch": "^11.0.5"
+    }
   }
 }
