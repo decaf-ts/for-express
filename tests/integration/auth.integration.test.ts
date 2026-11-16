@@ -37,8 +37,7 @@ describe("Auth middleware and interceptor", () => {
       .post("/product")
       .set("Authorization", "Bearer user")
       .send(payload);
-    // for-http maps missing model roles to AuthorizationError (401)
-    expect(res.status).toBe(401);
+    expect(res.status).toBe(403);
   });
 
   it("rejects a non-Bearer Authorization scheme with a 401", async () => {

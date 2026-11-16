@@ -107,7 +107,7 @@ describe("DecafModelModule skipModelRoles wiring (SAA-109 F8)", () => {
         .set("Authorization", "Bearer user")
         .send(payload());
 
-      expect(res.status).toBe(401);
+      expect(res.status).toBe(403);
       expect(authorize).toHaveBeenCalledWith(
         expect.anything(),
         "ControlRolesProduct",
